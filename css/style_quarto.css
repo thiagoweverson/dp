@@ -43,7 +43,7 @@ h3{
 }
 
 .class_cliente{
-  width: 143px;
+  width: 99%;
   border: 1px solid black;
   border-radius: 3px;
   font-size: 7pt;
@@ -51,12 +51,6 @@ h3{
   
 }
 
-.class_data{
-  margin-left: 25px;
-  border: 1px solid black;
-  border-radius: 3px;
-  font-size: 7pt;
-}
 
 .class_hr_ent{
   font-size: 7pt;
