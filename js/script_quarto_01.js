@@ -1,6 +1,5 @@
 function salvar(){
-localStorage.cliente = document.getElementById("cliente").value;
-localStorage.data = document.getElementById("data").value;
+localStorage.cliente = document.getElementById("cliente").value;;
 localStorage.hora_entrada = document.getElementById("hora_entrada").value;
 localStorage.hora_saida = document.getElementById("hora_saida").value;
 localStorage.q_h = document.getElementById("q_h").value;
@@ -36,7 +35,6 @@ localStorage.consumo_1 = document.getElementById("consumo_1").value;
 function carregar(){
 if (localStorage.cliente){
 document.getElementById("cliente").value = localStorage.cliente;
-document.getElementById("data").value = localStorage.data;
 document.getElementById("hora_entrada").value = localStorage.hora_entrada;
 document.getElementById("hora_saida").value = localStorage.hora_saida;
 document.getElementById("q_h").value = localStorage.q_h;
