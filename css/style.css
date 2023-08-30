@@ -570,6 +570,11 @@ nav{
   visibility: hidden;
 }
 
+.class-form{
+  background: none;
+  border: none;
+}
+
 .bac_cab{
   height: 623px;
   margin-top: -50px;
