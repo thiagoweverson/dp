@@ -585,7 +585,7 @@ nav{
 
 .class_cab{
   border: 1px solid black;
-  margin-left: 10px;
+  margin-left: -45px;
   border-bottom: none;
   width: 410px;
   height: 83px;
@@ -605,7 +605,7 @@ nav{
   background: #fff;
   border: 1px solid black;
   width: 400px;
-  margin-left: 10px;
+  margin-left: -45px;
   padding: 5px;
 }
 
